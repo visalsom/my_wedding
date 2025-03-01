@@ -8,7 +8,7 @@ export default function Phone3Section() {
       <div className="relative w-full max-w-[430px] mx-auto aspect-[9/16] bg-white shadow-lg rounded-3xl overflow-hidden">
         <div className="absolute inset-0 w-full h-full z-20">
           <img
-            src="/BG-4.svg"
+            src="https://res.cloudinary.com/dtqcx7q38/image/upload/v1740850652/BG-4_kmdq5w.svg"
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -21,7 +21,7 @@ export default function Phone3Section() {
 
         <div className="absolute inset-0 z-10 flex items-center justify-center">
           <Image
-            src="/3_in_1.png" 
+            src="https://res.cloudinary.com/dtqcx7q38/image/upload/v1740850650/3_in_1_csfu0s.png"
             alt="Wedding Photo"
             width={400} 
             height={1200} 

@@ -31,7 +31,7 @@ export default function Phone2Section() {
       <div className="relative w-full max-w-[430px] mx-auto aspect-[9/16] bg-white shadow-lg rounded-3xl overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/BG-1.svg"
+            src="https://res.cloudinary.com/dtqcx7q38/image/upload/v1740850650/BG-1_gwnp9a.svg"
             alt="Background"
             className="w-full h-full object-cover"
           />

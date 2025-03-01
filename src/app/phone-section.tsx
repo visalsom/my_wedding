@@ -49,7 +49,7 @@ export default function PhoneSection() {
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/BG-7.svg"
+            src="https://res.cloudinary.com/dtqcx7q38/image/upload/v1740850652/BG-7_spnmhf.svg"
             alt="Wedding Invitation Background"
             className="w-full h-full object-cover"
             style={{

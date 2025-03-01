@@ -1,4 +1,3 @@
-"use client";
 
 export default function Phone1Section() {
  
@@ -21,7 +20,7 @@ export default function Phone1Section() {
       
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/BG-2.svg"
+            src="https://res.cloudinary.com/dtqcx7q38/image/upload/v1740850653/BG-2_uwvafa.svg"
             alt="Background"
             className="w-full h-full object-cover"
           />
