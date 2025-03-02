@@ -2,15 +2,15 @@
 export default function Phone1Section() {
  
   const invitationText = `
-    សម្តេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា លោកជំទាវ លោក
+    សម្តេច ទ្រង់ ឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក
     លោកស្រី អ្នកនាងកញ្ញាអញ្ជើញចូលរួមជាអធិបតី 
-    និងជាភ្ញៀវកិត្តិយសដើម្បីប្រសិទ្ធពរជ័យ សិរិសួស្តីជ័យមង្គល 
+    និងជាភ្ញៀវកិត្តិយសដើម្បីប្រសិទ្ធពរជ័យ សិរីសួស្តីជ័យមង្គល 
     ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស កូនស្រី របស់យើងខ្ញុំ
   `;
 
   const eventDetails = `
-    ថ្ងៃ <strong>ព្រហស្បតិ៍</strong> ទី <strong>១៣</strong> ខែ <strong>មិនា</strong> ឆ្នាំ <strong>២០២៥</strong> នាវេលា
-    ម៉ោង <strong>៥:០០</strong> នាទីល្ងាច នៅភោជនីយដ្ឋាន <strong>សមភាពថ្មី (អគារ B)</strong>
+    ថ្ងៃ<strong>ព្រហស្បតិ៍</strong> ទី<strong>១៣</strong> ខែ<strong>មីនា</strong> ឆ្នាំ<strong>២០២៥</strong> 
+    នាវេលាម៉ោង<strong>៥:០០</strong> នាទីល្ងាច នៅភោជនីយដ្ឋាន <strong>សមភាពថ្មី (អគារ B)</strong>
     <br /> ក្រុង/ខេត្តសៀមរាប ដោយមេត្រីភាព ។
   `;
 
@@ -71,7 +71,7 @@ export default function Phone1Section() {
         rel="noopener noreferrer"
         className="text-bqr hover:underline kantumruy-pro underline"
       >
-        <strong>មើលផែនទី</strong>
+        <strong>បើកផែនទី</strong>
       </a>
     </p>
   </div>

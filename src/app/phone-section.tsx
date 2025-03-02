@@ -64,9 +64,9 @@ export default function PhoneSection() {
       {/* Header Section */}
           <div className="absolute top-[25%] left-1/3 transform -translate-x-1/5 text-center">
             <p className="sm:text-lg md:text-2xl text-dblue moul-regular sm:ml-4 md:m-2 ml-5">
-          សិរិសួស្ដី​អាពាហ៍ពិពាហ៍
+          សិរីសួស្ដី​អាពាហ៍ពិពាហ៍
         </p>
-            <p className="sm:text-lg md:text-2xl text-dblue moul-regular sm:ml-4 md:mr-2 mt-5 ml-5">
+            <p className="sm:text-lg md:text-2xl text-dblue moul-regular sm:ml-4 md:mr-2 mt-5 ml-4">
           សូម​គោរពអញ្ជើញ​
         </p>
       </div>

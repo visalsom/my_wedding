@@ -2,19 +2,18 @@
 
 export default function Phone2Section() {
   const gratitudeText = `
-    ខ្ញុំបាទ នាងខ្ញុំ ជាមាតាបិតា កូនប្រុសកូនស្រី សូមគោរព
+    យើងខ្ញុំជាមាតា បិតា កូនប្រុសកូនស្រី សូមគោរព
     ថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅ ចំពោះវត្តមានដ៏ឧត្តុងឧត្តមរបស់
     ឯកឧត្តម អ្នកឧកញ៉ា លោកជំទាវលោក លោកស្រី អ្នកនាង កញ្ញា 
-    ដែលជា ភ្ញៀវកិត្តិយស ក្នុងពិធីសិរីមង្គលអាពាហ៍ពិពាហ៍
+    ដែលជាភ្ញៀវកិត្តិយស ក្នុងពិធីសិរីមង្គលអាពាហ៍ពិពាហ៍
     របស់កូនប្រុស កូនស្រីយើងខ្ញុំ ។
     សូមមេត្តាទទួលនូវសេចក្តីគោរពដ៏ខ្ពង់ខ្ពស់ពីយើងខ្ញុំ ។
   `;
 
   const apologyText = `
-      ខ្ញុំបាទ នាងខ្ញុំ ជាមាតាបិតា កូនប្រុសកូនស្រី សូមគោរពថ្លែង
-    អំណរគុណយ៉ាងជ្រាលជ្រៅ ចំពោះវត្តមានដ៏ឧត្តុងឧត្តមរបស់
-    ឯកឧត្តម អ្នកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង
-    កញ្ញា ដែលជា ភ្ញៀវកិត្តិយសទាំងអស់គ្នា ក្នុងករណីដែលយើងខ្ញុំ
+    យើងខ្ញុំជាមាតា បិតា កូនប្រុសកូនស្រី សូមគោរពអធ្យាស្រ័យពីសំណាក
+    ឯកឧត្តម លោកឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាង
+    កញ្ញា ដែលជាភ្ញៀវកិត្តិយសទាំងអស់គ្នា ក្នុងករណីដែលយើងខ្ញុំ
     ពុំបានទៅអញ្ជើញផ្ទាល់ ។ 
     យើងខ្ញុំសង្ឃឹមថាភ្ញៀវកិត្តិយសទាំងអស់ និងផ្តល់កិត្តិយស
     អញ្ជើញចូលរួមក្នុងពិធីអាពាហ៍ពិពាហ៍របស់កូន ប្រុស កូនស្រី
@@ -22,7 +21,7 @@ export default function Phone2Section() {
   `;
 
   const weddingGiftText = `
-    លោកអ្នកអាចផ្ញើរចំណងដៃតាមគណនីរបស់ ពួកយើង
+    លោកអ្នកអាចផ្ញើចំណងដៃតាមគណនីរបស់ពួកយើង
     ម្ចាស់គណនី: LIM SREYNEATH & SOM VISAL
   `;
 
@@ -52,7 +51,7 @@ export default function Phone2Section() {
             {/* Apology Section */}
             <div>
               <p className="text-lg font-semibold mt-4 mb-2 text-center kantumruy-pro md:text-xl">
-                <strong>លិខិតសុំអភ័យទោស</strong>
+                <strong>សេចក្តីសូមអភ័យទោស</strong>
               </p>
               <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-r-text kantumruy-pro md:leading-6">
                 {apologyText}
@@ -60,8 +59,8 @@ export default function Phone2Section() {
             </div>
 
             <div>
-              <p className="text-lg mt-4 text-center roboto-condensed md:text-xl">
-                <strong>WEDDING GIFT</strong>
+              <p className="text-lg mt-4 text-center kantumruy-pro md:text-xl">
+                <strong>ចំណងដៃអាពាហ័ពិពាហ៍</strong>
               </p>
               <p className="text-sm md:text-base leading-4 tracking-tight text-center whitespace-pre-line md:leading-6">
                 {weddingGiftText}
@@ -75,7 +74,7 @@ export default function Phone2Section() {
         target="_blank"
         rel="noopener noreferrer"
         className="text-bqr hover:underline font-base kantumruy-pro underline">
-        <strong>ចូលរួមអបអរសាទរពួកយើង</strong>
+        <strong>ចុចផ្ញើរចំណងដៃ</strong>
       </a>
     </p>
   </div>
