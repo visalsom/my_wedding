@@ -14,7 +14,7 @@ export default function Phone3Section() {
           />
         </div>
         <div className="absolute top-1/9 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
-          <h2 className="text-2xl text-yellow-500 font-bold kantumruy-pro mb-8">
+          <h2 className="text-2xl text-dblue font-bold kantumruy-pro mb-8">
             <strong>វិចិត្រសាល</strong>
           </h2>
         </div>

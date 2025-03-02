@@ -39,7 +39,7 @@ export default function Phone2Section() {
 
 
         <div className="relative z-10 w-full h-full p-2 flex flex-col items-center justify-center">
-          <div className="text-yellow-500 space-y-2">
+          <div className="text-dblue space-y-2">
             <div>
             <p className="text-lg text-center kantumruy-pro mt-2 md:mt-4 md:text-xl">
                 <strong>សេចក្តីថ្លែងអំណរគុណ</strong>
@@ -67,24 +67,19 @@ export default function Phone2Section() {
                 {weddingGiftText}
               </p>
             </div>
-
-            <div className="flex justify-center mt-4 space-x-2">
-              <a
-                href="https://pay.ababank.com/Nm5XLeoZ86FLaHh86"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-violet-500 hover:underline font-base kantumruy-pro underline">
-                <strong>Team កូនកំលោះ</strong>
-                
-              </a>
-              <a
-                href="https://pay.ababank.com/Nm5XLeoZ86FLaHh86"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-violet-500 hover:underline font-base kantumruy-pro underline" >
-                <strong>Team កូនក្រមុំ</strong>
-              </a>
-            </div>
+            <div className="flex justify-center">
+  <div className="shadow-lg border rounded-lg p-1 flex justify-center mt-10 w-fit">
+    <p className="text-lg text-center m-0">
+      <a
+        href="https://pay.ababank.com/Nm5XLeoZ86FLaHh86"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-bqr hover:underline font-base kantumruy-pro underline">
+        <strong>ចូលរួមអបអរសាទរពួកយើង</strong>
+      </a>
+    </p>
+  </div>
+</div>
           </div>
         </div>
       </div>

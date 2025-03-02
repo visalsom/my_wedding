@@ -28,7 +28,7 @@ export default function Phone1Section() {
 
 
         <div className="relative z-10 w-full h-full p-4 flex items-center justify-center">
-          <div className="text-yellow-500">
+          <div className="text-dblue">
     
             <p className="text-lg sm:text-xl md:text-2xl text-center kantumruy-pro mt-4 md:mb-4">
               <strong>សូមគោរពអញ្ជើញ</strong>
@@ -62,16 +62,20 @@ export default function Phone1Section() {
             />
 
     
-            <p className="text-xl mt-4 text-center ml-1 ">
-              <a
-                href="https://www.google.com/maps/place/Sampheap+thmei+Restaurant/@13.3488562,103.8405692,17z/data=!3m1!4b1!4m6!3m5!1s0x3110175e6a94bf95:0xff7a7aaf4d340053!8m2!3d13.348851!4d103.8431441!16s%2Fg%2F1hjh4p320?entry=ttu&g_ep=EgoyMDI1MDIyNS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-violet-500 hover:underline kantumruy-pro "
-              >
-                <strong>មើលផែនទី</strong>
-              </a>
-            </p>
+<div className="flex justify-center">
+  <div className="shadow-lg border rounded-lg p-1 flex justify-center mt-10 w-fit">
+    <p className="text-lg text-center m-0">
+      <a
+        href="https://www.google.com/maps/place/Sampheap+thmei+Restaurant/@13.3488562,103.8405692,17z/data=!3m1!4b1!4m6!3m5!1s0x3110175e6a94bf95:0xff7a7aaf4d340053!8m2!3d13.348851!4d103.8431441!16s%2Fg%2F1hjh4p320?entry=ttu&g_ep=EgoyMDI1MDIyNS4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-bqr hover:underline kantumruy-pro underline"
+      >
+        <strong>មើលផែនទី</strong>
+      </a>
+    </p>
+  </div>
+</div>
           </div>
         </div>
       </div>
