@@ -2,10 +2,10 @@
 export default function Phone1Section() {
  
   const invitationText = `
-    សម្តេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា លោកជំទាវ លោក លោកស្រី
-    អ្នកនាងកញ្ញាអញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស
-    ដើម្បីប្រសិទ្ធពរជ័យ សិរិសួស្តីជ័យមង្គល ក្នុង
-    ពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស កូនស្រី របស់យើងខ្ញុំ
+    សម្តេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ៉ា លោកជំទាវ លោក
+    លោកស្រី អ្នកនាងកញ្ញាអញ្ជើញចូលរួមជាអធិបតី 
+    និងជាភ្ញៀវកិត្តិយសដើម្បីប្រសិទ្ធពរជ័យ សិរិសួស្តីជ័យមង្គល 
+    ក្នុងពិធីរៀបអាពាហ៍ពិពាហ៍ កូនប្រុស កូនស្រី របស់យើងខ្ញុំ
   `;
 
   const eventDetails = `
@@ -28,47 +28,46 @@ export default function Phone1Section() {
 
 
         <div className="relative z-10 w-full h-full p-4 flex items-center justify-center">
-          <div className="text-rose-900 space-y-6 mb-10">
+          <div className="text-yellow-500">
     
-            <p className="text-2xl text-center kantumruy-pro ">
+            <p className="text-lg sm:text-xl md:text-2xl text-center kantumruy-pro mt-4 md:mb-4">
               <strong>សូមគោរពអញ្ជើញ</strong>
             </p>
 
-           
-            <p className="text-base leading-6 tracking-tight text-center whitespace-pre-line kantumruy-pro mb-4">
+            <p className="text-sm leading-6 tracking-tight text-center whitespace-pre-line kantumruy-pro mb-4  md:text-lg sm:text-base">
               {invitationText}
             </p>
 
          
             <div className="flex justify-between mt-6">
               <div className="text-left pl-10">
-                <p className="font-semibold mb-4 kantumruy-pro ml-5 text-lg">
+                <p className="font-semibold mb-4 kantumruy-pro  text-base md:text-xl sm:text-lg">
                   <u>កូនប្រុសនាម</u>
                 </p>
-                <p className="text-2xl font-semibold kantumruy-pro "><strong>សោម វិសាល</strong></p>
+                <p className="text-base md:text-xl sm:text-lg font-semibold kantumruy-pro "><strong>សោម វិសាល</strong></p>
               </div>
               <div className="text-right pr-10">
-                <p className="font-semibold mb-4 kantumruy-pro mr-7 text-lg">
+                <p className="font-semibold mb-4 kantumruy-pro mr-4 text-base md:text-xl sm:text-lg">
                   <u>កូនស្រីនាម</u>
                 </p>
-                <p className="text-2xl font-semibold kantumruy-pro "> <strong>លីម ស្រីនាថ</strong></p>
+                <p className="text-base md:text-xl sm:text-lg font-semibold kantumruy-pro "> <strong>លីម ស្រីនាថ</strong></p>
               </div>
             </div>
 
        
-            <p className="text-base mt-8 text-center kantumruy-pro ">ដែលនិងប្រព្រឹត្តទៅនៅ</p>
+            <p className="text-base mt-4 text-center kantumruy-pro md: mt12">ដែលនិងប្រព្រឹត្តទៅនៅ</p>
             <p
-              className="text-base text-center leading-6 kantumruy-pro "
+              className="text-base text-center leading-6 kantumruy-pro md:text-lg"
               dangerouslySetInnerHTML={{ __html: eventDetails }}
             />
 
     
-            <p className="text-xl mt-10 text-center ml-1">
+            <p className="text-xl mt-4 text-center ml-1 ">
               <a
                 href="https://www.google.com/maps/place/Sampheap+thmei+Restaurant/@13.3488562,103.8405692,17z/data=!3m1!4b1!4m6!3m5!1s0x3110175e6a94bf95:0xff7a7aaf4d340053!8m2!3d13.348851!4d103.8431441!16s%2Fg%2F1hjh4p320?entry=ttu&g_ep=EgoyMDI1MDIyNS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline kantumruy-pro "
+                className="text-violet-500 hover:underline kantumruy-pro "
               >
                 <strong>មើលផែនទី</strong>
               </a>
@@ -77,5 +76,5 @@ export default function Phone1Section() {
         </div>
       </div>
     </section>
-  );
+);
 }

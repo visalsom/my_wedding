@@ -39,41 +39,41 @@ export default function Phone2Section() {
 
 
         <div className="relative z-10 w-full h-full p-2 flex flex-col items-center justify-center">
-          <div className="text-rose-900 space-y-4">
+          <div className="text-yellow-500 space-y-2">
             <div>
-              <p className="text-xl text-center kantumruy-pro mt-12">
+              <p className="text-lg text-center kantumruy-pro mt-4 md:mt-2 md:text-xl">
                 <strong>សេចក្តីថ្លែងអំណរគុណ</strong>
               </p>
-              <p className="text-base leading-6 tracking-normal text-center whitespace-pre-line kantumruy-pro">
+              <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-pre-line kantumruy-pro md:leading-6">
                 {gratitudeText}
               </p>
             </div>
 
             {/* Apology Section */}
             <div>
-              <p className="text-xl font-semibold mt-8 mb-2 text-center kantumruy-pro">
+              <p className="text-lg font-semibold mt-4 mb-2 text-center kantumruy-pro md:text-xl">
                 <strong>លិខិតសុំអភ័យទោស</strong>
               </p>
-              <p className="text-base leading-6 tracking-normal text-center whitespace-pre-line kantumruy-pro">
+              <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-pre-line kantumruy-pro md:leading-6">
                 {apologyText}
               </p>
             </div>
 
             <div>
-              <p className="text-xl mt-8 text-center roboto-condensed ">
+              <p className="text-lg mt-4 text-center roboto-condensed md:text-xl">
                 <strong>WEDDING GIFT</strong>
               </p>
-              <p className="text-sm leading-6 tracking-tight text-center whitespace-pre-line">
+              <p className="text-sm md:text-base leading-4 tracking-tight text-center whitespace-pre-line md:leading-6">
                 {weddingGiftText}
               </p>
             </div>
 
-            <div className="flex justify-center mt-4 space-x-4">
+            <div className="flex justify-center mt-4 space-x-2">
               <a
                 href="https://pay.ababank.com/Nm5XLeoZ86FLaHh86"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-700 font-base kantumruy-pro">
+                className="text-violet-500 hover:underline font-base kantumruy-pro">
                 <strong>Team កូនកំលោះ</strong>
                 
               </a>
@@ -81,7 +81,7 @@ export default function Phone2Section() {
                 href="https://pay.ababank.com/Nm5XLeoZ86FLaHh86"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-700 font-base kantumruy-pro" >
+                className="text-violet-500 hover:underline font-base kantumruy-pro" >
                 <strong>Team កូនក្រមុំ</strong>
               </a>
             </div>
