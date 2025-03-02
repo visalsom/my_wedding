@@ -69,3 +69,17 @@ body {
   font-weight: 900;
   font-style: normal;
 }
+
+.text-r-2xl {
+  font-size: clamp(2ch,3vw,1.5rem)
+}
+
+.whitespace-r-text {
+  white-space: pre-line;
+}
+
+@media (max-width: 360px) {
+  .whitespace-r-text {
+    white-space: collapse;
+  }
+}

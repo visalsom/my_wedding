@@ -41,10 +41,10 @@ export default function Phone2Section() {
         <div className="relative z-10 w-full h-full p-2 flex flex-col items-center justify-center">
           <div className="text-yellow-500 space-y-2">
             <div>
-              <p className="text-lg text-center kantumruy-pro mt-4 md:mt-2 md:text-xl">
+              <p className="text-lg text-center kantumruy-pro mt-2 md:mt-4 md:text-xl">
                 <strong>សេចក្តីថ្លែងអំណរគុណ</strong>
               </p>
-              <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-pre-line kantumruy-pro md:leading-6">
+              <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-r-text kantumruy-pro md:leading-6">
                 {gratitudeText}
               </p>
             </div>
@@ -54,7 +54,7 @@ export default function Phone2Section() {
               <p className="text-lg font-semibold mt-4 mb-2 text-center kantumruy-pro md:text-xl">
                 <strong>លិខិតសុំអភ័យទោស</strong>
               </p>
-              <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-pre-line kantumruy-pro md:leading-6">
+              <p className="text-sm md:text-base leading-5 tracking-normal text-center whitespace-r-text kantumruy-pro md:leading-6">
                 {apologyText}
               </p>
             </div>
