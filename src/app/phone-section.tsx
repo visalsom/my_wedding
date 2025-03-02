@@ -73,7 +73,7 @@ export default function PhoneSection() {
 
           {/* Recipient Section */}
           <div className="absolute top-[63.5%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg text-center ">
-            <h2 className="text-2xl moul-regular text-yellow-500 whitespace-nowrap break-words kantumruy-pro">
+          <h2 className="text-r-2xl moul-regular text-yellow-500 whitespace-nowrap break-words kantumruy-pro">
               <strong>{to ? ` ${to}` : ""}</strong>
             </h2>
           </div>
